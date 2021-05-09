@@ -44,6 +44,11 @@ int main(int argc, char* argv[])
                 break;
                 
                 case 3:
+                printf("\t\n-------------------------------------------\n");
+                printf("\t\nMauvaise reponse !\n");
+                score -= 1;
+                printf("\t\n-------------------------------------------\n");
+                break;    
            }
 
 
